@@ -83,3 +83,14 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+Requirement already satisfied: virtualenv in /data/data/com.termux/files/usr/lib/python3.8/site-packages (20.0.27)
+Requirement already satisfied: distlib<1,>=0.3.1 in /data/data/com.termux/files/usr/lib/python3.8/site-packages (from virtualenv) (0.3.1)
+Requirement already satisfied: six<2,>=1.9.0 in /data/data/com.termux/files/usr/lib/python3.8/site-packages (from virtualenv) (1.15.0)
+Requirement already satisfied: filelock<4,>=3.0.0 in /data/data/com.termux/files/usr/lib/python3.8/site-packages (from virtualenv) (3.0.12)
+Requirement already satisfied: appdirs<2,>=1.4.3 in /data/data/com.termux/files/usr/lib/python3.8/site-packages (from virtualenv) (1.4.4)
+$ virtualenv env
+created virtual environment CPython3.8.3.final.0-64 in 2419ms
+  creator CPython3Posix(dest=/data/data/com.termux/files/home/hello-world/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/data/data/com.termux/files/home/.local/share/virtualenv)
+    added seed packages: pip==20.1.1, setuptools==49.2.0, wheel==0.34.2
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
